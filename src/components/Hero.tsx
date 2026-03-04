@@ -27,11 +27,14 @@ export default function Hero() {
 
       <div className="relative z-10 text-center text-white">
         <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold tracking-tight mb-6">
-          ОТКРОЙ
+          ТЕХНИКА<br />ДЛЯ ДОМА
         </h1>
         <p className="text-lg md:text-xl max-w-2xl mx-auto px-6 opacity-90">
-          Исследуй границы дизайна с иммерсивным параллакс-эффектом
+          Лучшая бытовая техника — от холодильников до роботов-пылесосов. Доставка по всей России
         </p>
+        <button className="mt-8 bg-white text-black px-8 py-3 uppercase text-sm tracking-wide hover:bg-neutral-200 transition-colors duration-300 cursor-pointer">
+          Перейти в каталог
+        </button>
       </div>
     </div>
   );
